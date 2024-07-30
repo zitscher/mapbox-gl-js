@@ -249,7 +249,7 @@ class Transform {
         this.freezeTileCoverage = false;
 
         // Move the horizon closer to the center. 0 would not shift the horizon. 1 would put the horizon at the center.
-        this._horizonShift = 0.1;
+        this._horizonShift = 0;
 
         this._orthographicProjectionAtLowPitch = false;
     }
